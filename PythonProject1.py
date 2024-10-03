@@ -17,7 +17,7 @@ def print1by1(text, delay=0.1):
     print1by1
 
 #Function that will printcharacters 1 by 1 at a slower rate.
-def slow1by1(text, delay=0.2):
+def slow1by1(text, delay=0.1):
     for c in text:
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -44,7 +44,7 @@ def roommateRoom():
     slow1by1("IT WAS YOUR ROOMMATE ALL ALONG: MATTHEW!\n")
     print1by1("He was the one behind the terrible tune you've been listening to since you entered your apartment.\n")
     print1by1("You ask him politely 'Hey, could you please turn it down?'\n")
-    print1by1("'Fine, but only if you get me that Spice Bun that downstairs in the kitchen.' he says.\n")
+    print1by1("'Fine, but only if you get me that Spice Bun that's downstairs in the kitchen.' he says.\n")
     print("-----------------------------------------------------------------------------------------------------")
     if haveBun == -1:
         print1by1("'Uhhhh, I ate it' you tell him\n")
@@ -72,9 +72,9 @@ def kitchen():
             haveBun = -1
         if bunDecision == option2:
             print("-----------------------------------------------------------------------------------------------------")
-            print1by1("You decided to save the bun for later.\n")
+            print1by1("You decide to save the bun for later.\n")
             haveBun = 1
-        print1by1("After some time in the kitchen, you decided to head upstairs as it is your only other option\n")
+        print1by1("After some time in the kitchen, you decide to head upstairs as it is your only other option\n")
         print("-----------------------------------------------------------------------------------------------------")
         goneUpstairs()
     if decision_1 == option2:
