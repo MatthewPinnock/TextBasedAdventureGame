@@ -1,4 +1,4 @@
-# TextBasedAdventureGame
+# TextBasedAdventureGame(Unfinished)
 Text-Based Adventure Game
 This is a text-based adventure game where you try to find the source of a terrible tune that has been bothering you since you entered your apartment. Your roommate turns out to be the culprit, and he agrees to turn down the volume only if you get him a Spice Bun from the kitchen. You must navigate through the game by making choices and searching for clues to find the Spice Bun and complete the game.
 
